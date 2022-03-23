@@ -1,11 +1,12 @@
-/* 16.03.2022 */
+/* 16.03.2022 
+Mateusz Scibiorski */
 body
 {
 	color: blue;
-	font-size:54mm
+	font-size: 54mm;
 }
 p
 {
 	color: green;
-	font-size:64mm
+	font-size: 64mm;
 }
