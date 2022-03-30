@@ -1,0 +1,11 @@
+/* 06.02.2022  02.03.2022
+body niebieski kolor tekstu */
+body
+{
+	color: rgb(53%,36%,83%);
+}
+/* p zielony kolor tesktu */
+p
+{
+	color: #70A15C;
+}
