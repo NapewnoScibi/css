@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8"></meta>
+<!-- 29.03.2022 -->
+<!-- Mateusz Scibiorski -->
+<style>
+p
+{
+font-family: Arial;
+}
+</style>
+</head>
+<body>
+<h1>  Styl zewnetrzny </h1>
+<ol>
+<h1><li>Składnia teoretyczna , otoczony ramką (może być tabela jedno komórkowa, konieczne wcięcia). </li></h1>
+<textarea rows="6" cols="60">
+<head>
+(...)
+<link rel="Stylesheet" type="text/css" href="style.css" />
+(...)
+</head>
+</textarea>
+<h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</li></h1>
+<p>W tresci nagłówka (head)</p>
+<p>Znacznik Link jest za to odpowiedzialny</p>
+<p>moze wystepowac dowolną ilość razy </p>
+<h1><li>Jak jest najprostsza forma wstawiania stylu zewnętrznego otoczony ramką (może być tabela jedno komórkowa)</li></h1>
+<textarea rows="1" cols="60">
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</textarea>
+<h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</li></h1>
+<p>dowolna ilosc</p>
+<h1><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</li></h1>
+<p>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później</p>
+<h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</li></h1>
+<p>W zwykłym edytore tekstu</p>
+<h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</li></h1>
+<p>W specjalnym edytorze css</p>
+<h1><li>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</li></h1>
+<p>css</p>
+<h1><li>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</li></h1>
+<ol>
+<li><p>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.</p></li>
+<li><p>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach,</p>
+<p>możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno.</p></li>
+</ol>
+<h1><li>Uwagi na temat pisania w CSS.</li></h1>
+<p>znacznik link moze byc  tylko w nagłówku (head) </p>
+</ol>
+</body>
+</html>
