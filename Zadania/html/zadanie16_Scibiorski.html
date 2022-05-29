@@ -9,14 +9,31 @@ p
 {
 font-family: arial;
 }
+
+
 </style>
 </head>
 <body>
 <ol>
 <h1><li>Opis znacznika DIV</h1></li>
+<p>DIV jest elementem blokowym który może zawierać węwnątrz tekst i inne elementy blokowe.</p>
+<p>Używa się go do wyodrębienia bloków w dokumenecie  np: menu nawigacyjne , stopka. </p>
+<p>Służy też do tworzenia sekcji do sformatowania w css jak i grupowaniu/pozycjonowaniu elementów dokumentu.</p>
 <h1><li>Opis znacznika SPAN</h1></li>
+<p>Jest elementem liniowym który nie może zawierać elementów blokowych (lecz span może się znajdować w div).</p>
+<p>Słuszy do wyodrębienia części tekstu w paragrafie , np : wyrónić tekst zmieniając jego kolor.</p>
 <h1><li>Różnica między znacznikami DIV i SPAN</h1></li>
+<p>Obydwa słuszą do wyodrebnienia elementów lecz:</p>
+<p>-Span jest do wyodrebnienia elementów liniowówch (np fragmenty tekstu)</p>
+<p>-DIV jest do wyodrebnienia elementów blokowych (większe fragmenty struktury składające się na układ strony)</p>
+<p>-DIV domyślnie jest wyświetlany w bloku a SPAN w linii</p>
 <h1><li>Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe</h1></li>
+<p>liniowe:<br><textarea rows="7" cols="15"> <span> ,<strong> , <em> </textarea></p>
+<p>blokowe:<br> <textarea rows="7" cols="15"><div> , <p>, <article> </textarea></p>
+<p>liniowo-blokowe:<br><textarea rows="7" cols="15"><input> ,<textarea></textarea></p>
+<p>Liniowe nie powodują przejscia do nowej linii i będą się wyświetlać obok siebie w jednej linii,<br>Domyslne ustawienie przegląndarki wartości "display" na elementów liniowych to "inline". </p>
+<p>Blokowe nie wyświetlają się obok siębie i zachowują się jak pudłke które można położyć jeden na drugim,<br>Domyslne ustawienie przegląndarki wartości "display" na elementów blokowych to "block". </p>
+<p>Liniowo-blokowe Zachowuje się tak samo jak liniowe czyli będą  wyświetlać się obok siebie lecz możesz im nadawać rózne wielkości,<br>Domyslne ustawienie przegląndarki wartości "display" na elementów liniowo-blokowych to "inline-block". </p>
 </ol>
 </body>
 </html>
