@@ -1,0 +1,20 @@
+/* Mateusz Ścibiorski 
+ hover: pseudo klasa która zmienia styl elementu po najechaniu na niego myszką */
+div 
+{
+    width: 626px;
+    background-color: #008000;
+    font-size: 20mm;
+}
+#blok1_scibiorski:hover
+{
+    background-color:#c0c0c0;
+}
+#blok2_scibiorski:hover
+{
+    background-color:#ffff00;
+}
+#blok3_scibiorski:hover
+{
+    background-color:#40e0d0;
+}
